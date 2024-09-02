@@ -1,22 +1,38 @@
-/* body {
-    background-color: beige;
+body{
+    text-align: center;
+    padding-top: 15%;
 }
 
-h1 {
-    color: cornflowerblue;
-    transition:color .5s ease-in-out;
+#weather{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
 }
 
-.clicked {
-    color:tomato;
+#todo-list {
+    padding-left: 0;
+    padding-right: 100px;
+
 }
 
-.sfont {
-    width: 130px;
-    font-size:xx-large;
-    background-color: yellow;
-} */
+#quote {
+    position: absolute;
+    background-color: rgba(255, 255, 240, 0.5) ;
+    text-align: center;
+    bottom: 0;
+    left: 50px;
+    right: 50px;
+}
 
+#quote span:first-child {
+    font-size:larger;
+}
+
+#quote span:last-child {
+    font-size:smaller;
+
+}
 
 .hidden {
     display: none;
@@ -32,4 +48,8 @@ img {
     bottom:0px;
     z-index: -1;
     opacity:80%;
+}
+
+ul{
+    list-style: none;
 }

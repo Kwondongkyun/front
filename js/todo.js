@@ -32,8 +32,8 @@ function paintToDo(newTodo) {
     button.addEventListener("click", deleteToDo);
 
     // li태그 안에 span 넣기
-    li.appendChild(span);
     li.appendChild(button);
+    li.appendChild(span);
     toDoList.appendChild(li);
 }
 
